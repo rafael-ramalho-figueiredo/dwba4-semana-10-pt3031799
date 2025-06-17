@@ -37,7 +37,7 @@ figcaption {
 #if {
   background-color: green;
   padding-left: 0px;
-  padding-right: 100%;
+  padding-right: 81.4%;
   margin: 0;
 }
 
@@ -45,6 +45,7 @@ figcaption {
   background-color: #282828;
   font-family: Arial, Helvetica, sans-serif;
   padding: 16px 0px;
+  margin: 0;
 }
 
 .menuLink {
@@ -68,7 +69,6 @@ figcaption {
 
 #submit {
   border: 0;
-  width: 100%;
   color: white;
   background-color: green;
   padding: 15px;
@@ -79,11 +79,42 @@ ul, li {
   margin-bottom: 10px;
 }
 
-.entrar {
+.entrar label{
   border: 0;
+  height: ;
   background-color: lightgrey;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 0;
+}
+
+.entrar input {
+  height: 40px;
+  width: 40%;
+  border-color: lightgray;
+  border-style: solid;
+  border-radius: 6px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+input#usuario {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input#senha {
+  border-top: 0px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.col-sm-12 #submit {
+  background-color: darkcyan;
+  font-size: 16px;
+  height: 40px;
+  width: 40%;
+  padding: 0;
+  border-radius: 6px;
 }
 
 .gridImg {
@@ -94,7 +125,7 @@ figcaption {
   border: 0;
 }
 
-div.container {
+div.containerr {
   display: grid;
   margin: 30px 50px;
   width: 100%;

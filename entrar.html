@@ -1,44 +1,77 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Contato - IFSP - Pirituba</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contato - IFSP - Pirituba</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-    
-  <header id="cabecalho">
-      <nav>
-          <object width="100%" height="65px" data="menu.html"></object>
-      </nav>
+    <header id="cabecalho">
+        <nav>
+            <object width="100%" height="65px" data="menu.html"></object>
+        </nav>
 
-      <img id="if" src="Imagens/Logo.jpg" alt=" " />
-  </header>
+        <img id="if" src="Imagens/Logo.jpg" alt=" " />
+    </header>
 
-  <h1>Entrar</h1>
+    <div class="container" style="text-align: center; margin-top: 50px; margin-bottom: 250px;">
+        <div class="row justify-content-center">
+            <div class="col-sm-12">
+                <img src="Imagens/ifsp.png" height="90px">
+            </div>
+            <div class="col-sm-12">
+                <h2>Faça o Login</h2>
+            </div>
+        </div>
 
-  <form>
-    <div class="entrar">
-    <label for="usuario">Usuário</label>
-    <input type="text" name="usuario" id="usuario"><br>
+        <div class="row">
+            <div class="col-sm-12">
+                <form>
+                    <div class="entrar">
+                        <label for="usuario"></label>
+                        <input type="text" name="usuario" id="usuario" placeholder="Seu email" required="required"><br>
+                    </div>
+                    <div class="entrar">
+                        <label for="senha"></label>
+                        <input type="password" name="senha" id="senha" placeholder="Senha" required="required"><br>
+                    </div>
+                    <div>
+                        <label for="lembrar" style="margin-bottom: 20px; font-weight: 100;">
+                            <input type="checkbox">
+                            <span class="checkmark">Lembrar de mim</span>
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <a href="entrar.html">Esqueci a senha</a>
+                        </div>
+                        <div class="col-sm-12"></div>
+                            <input id="submit" type="submit" value="Login">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-    <div class="entrar">
-    <label for="senha">Senha</label>
-    <input type="password" name="senha" id="senha"><br>
-    </div>
-    <input id="submit" type="submit" value="Entrar">
-    <a href="entrar.html">Esqueci a senha</a>
-  </form>
+    <footer>
+        <br><br>
+        <div align="left">
+            <a href="https://www.facebook.com/ifsppirituba"><img src="Imagens/facebook.png" width="41" height="43"
+                    title="IFSP Facebook" alt="IFSP Facebook"></a>
+        </div>
+        <p>
+            IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP -
+            Contato: (011) 2504-0100
+        </p>
+    </footer>
 
-  <footer>
-      <br><br>
-      <div align="left">
-          <a href="https://www.facebook.com/ifsppirituba"><img src="Imagens/facebook.png" width="41" height="43" title="IFSP Facebook" alt="IFSP Facebook"></a>
-      </div>
-      <p>
-          IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100
-      </p>
-  </footer>
 </body>
+
 </html>
