@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+}
+
+label, input, fieldset {
+  margin-top: 10px;
+}
+
+fieldset {
+  border-width: 2px;
+  border-color: black;
+}
+
+#h1Index, iframe {
+  text-align: center;
+}
+
+#indexImg {
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+}
+
+option, select {
+  background-color: lightgray;
+}
+
+figcaption {
+  border-style: dotted;
+}
+
+#if {
+  background-color: green;
+  padding-left: 0px;
+  padding-right: 100%;
+  margin: 0;
+}
+
+#my_menu {
+  background-color: #282828;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 16px 0px;
+}
+
+.menuLink {
+  padding: 16px 16px;
+}
+
+#sobre {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#my_menu a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+
+.menuLink:hover {
+  background-color: red;
+}
+
+#submit {
+  border: 0;
+  width: 100%;
+  color: white;
+  background-color: green;
+  padding: 15px;
+}
+
+ul, li {
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+.entrar {
+  border: 0;
+  background-color: lightgrey;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.gridImg {
+  height: 200px;
+}
+
+figcaption {
+  border: 0;
+}
+
+div.container {
+  display: grid;
+  margin: 30px 50px;
+  width: 100%;
+  align-content: space-between;
+  row-gap: 40px;
+}
+
+.gridItem {
+  text-align: center;
+}
+
+.a {
+  grid-column-start: 1;
+
+}
+
+.b {
+  grid-column-start: 2;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+  text-align: center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
